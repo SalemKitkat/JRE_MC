@@ -15,12 +15,12 @@ If "!Option!"=="" (
 	If "%1"=="1.12" Goto 1_12
 	If "%1"=="1.16" Goto 1_16
 	If "%1"=="1.20" Goto 1_20
-	If "%1"=="latest" Goto Latest
+	If "%1"=="latest" Goto 1_20
 )
 If "!Option!"=="1.12" Goto 1_12
 If "!Option!"=="1.16" Goto 1_16
 If "!Option!"=="1.20" Goto 1_20
-If "!Option!"=="latest" Goto Latest
+If "!Option!"=="latest" Goto 1_20
 :: Exit if for whatever reason, neither of the above variables pass.
 Echo Something went wrong! Press any key to exit...
 Pause>Nul
