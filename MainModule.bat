@@ -73,7 +73,7 @@ If Not Exist "C:\Program Files\Java\jdk1.8.0_211\bin\java.exe" (
 	)
 	Echo.
 	Echo Downloading 1.12.x startup module...
-	curl -o Startup.bat https://raw.githubusercontent.com/SalemKitkat/JRE_MC/refs/heads/main/SubModule/1_12.bat?token=GHSAT0AAAAAACWR7N6PWOVG3IXKGO3726KYZ2QQX4Q
+	curl -o Startup.bat https://raw.githubusercontent.com/SalemKitkat/JRE_MC/refs/heads/main/SubModule/1_12.bat
 	Echo.
 	Echo Startup module pushed to "Startup.bat"
 	Echo Press any key to exit...
@@ -105,7 +105,7 @@ If Not Exist "C:\Program Files\Java\jre1.8.0_431\bin\java.exe" (
 	)
 	Echo.
 	Echo Downloading 1.16.x startup module...
-	curl -o Startup.bat https://raw.githubusercontent.com/SalemKitkat/JRE_MC/refs/heads/main/SubModule/1_16.bat?token=GHSAT0AAAAAACWR7N6ORMTDSK5LPOTPPGKGZ2QQ7MQ
+	curl -o Startup.bat https://raw.githubusercontent.com/SalemKitkat/JRE_MC/refs/heads/main/SubModule/1_16.bat
 	Echo.
 	Echo Startup module pushed to "Startup.bat"
 	Echo Press any key to exit...
@@ -137,7 +137,7 @@ If Not Exist "C:\Program Files\Java\jdk-17.0.2\bin\java.exe" (
 	)
 	Echo.
 	Echo Downloading 1.20.x startup module...
-	curl -o Startup.bat https://raw.githubusercontent.com/SalemKitkat/JRE_MC/refs/heads/main/SubModule/1_20.bat?token=GHSAT0AAAAAACWR7N6PEOPKJ5AESHCRSZ6IZ2QRCIA
+	curl -o Startup.bat https://raw.githubusercontent.com/SalemKitkat/JRE_MC/refs/heads/main/SubModule/1_20.bat
 	Echo.
 	Echo Startup module pushed to "Startup.bat"
 	Echo Press any key to exit...
