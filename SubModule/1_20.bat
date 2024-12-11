@@ -1,9 +1,4 @@
 @Echo off
-:Start
-"C:\Program Files\Java\jdk-17.0.2\bin\java.exe" -Xms10G -Xmx10G -jar %1 nogui
-Goto Start
-
-@Echo off
 SetLocal EnableExtensions EnableDelayedExpansion
 If "%1"=="" Goto Relay
 
